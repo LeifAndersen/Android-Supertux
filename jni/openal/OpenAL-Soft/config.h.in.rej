@@ -1,0 +1,12 @@
+--- config.h.in	(revision 1955) 
++++ config.h.in	(working copy) 
+@@ -25,6 +25,9 @@
+ /* Define if we have the PulseAudio backend */ 
+ #cmakedefine HAVE_PULSEAUDIO 
+  
++/* Define if we have the SDL backend */ 
++#cmakedefine HAVE_SDL 
++ 
+ /* Define if we have dlfcn.h */ 
+ #cmakedefine HAVE_DLFCN_H 
+  

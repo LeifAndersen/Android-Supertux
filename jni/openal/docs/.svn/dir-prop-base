@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 86
+oalspecs
+oalspecs.junk
+oalspecs.aux
+oalspecs.dvi
+oalspecs.ps
+oalspecs.tex
+oalspecs.log
+END

@@ -1,0 +1,477 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android 
+Build flags: 
+Id flags: 
+
+The output was:
+4
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: Link and compile in one step is not supported by this wrapper.
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -o cmTryCompileExec -rdynamic
+Using built-in specs.
+Target: arm-eabi
+Configured with: /tmp/ndk-toolchain-Dz5542/src/build/../gcc/gcc-4.2.1/configure --prefix=/tmp/ndk-prebuilt-5501/build/prebuilt/linux-x86/arm-eabi-4.2.1 --target=arm-eabi --host=i686-pc-linux-gnu --build=i686-pc-linux-gnu --enable-languages=c,c++ --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --with-abi=aapcs --disable-nls --prefix=/tmp/ndk-prebuilt-5501/build/prebuilt/linux-x86/arm-eabi-4.2.1 --with-sysroot=/opt/android/android-ndk-r4-crystax/build/platforms/android-3/arch-arm --enable-libstdc__-v3 --enable-threads=posix --with-binutils-version=2.19 --with-gcc-version=4.2.1 --with-gdb-version=6.6 --program-transform-name=s&^&arm-eabi-&
+Thread model: posix
+gcc version 4.2.1
+ /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../libexec/gcc/arm-eabi/4.2.1/collect2 --sysroot=/opt/android/android-ndk-r4-crystax/build/platforms/android-3/arch-arm -X -o cmTryCompileExec /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crti.o /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtbegin.o crt0.o -L/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1 -L/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc -L/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtend.o /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtn.o
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/bin/ld: crt0.o: No such file: No such file or directory
+collect2: ld returned 1 exit status
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: Internal error: Uknown compiler mode.
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 3
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:43:20: error: stdint.h: No such file or directory
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:44:23: error: sys/cdefs.h: No such file or directory
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:46:31: error: linux/posix_types.h: No such file or directory
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:47:23: error: asm/types.h: No such file or directory
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:48:25: error: linux/types.h: No such file or directory
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:49:28: error: machine/kernel.h: No such file or directory
+In file included from /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:51: error: expected '=', ',', ';', 'asm' or '__attribute__' before '__kernel_dev_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:61: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'blkcnt_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:62: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'blksize_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:63: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'clock_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:64: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'clockid_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:65: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'dev_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:66: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'fsblkcnt_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:67: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'fsfilcnt_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:68: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'gid_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:69: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'id_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:70: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'ino_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:71: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'key_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:72: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'mode_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:73: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'nlink_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:75: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'off_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:76: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'loff_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:77: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'off64_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:79: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'pid_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:110: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'suseconds_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:111: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'time_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:112: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uid_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:115: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'daddr_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:116: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'timer_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:117: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'mqd_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:119: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'caddr_t'
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/sys/types.h:124:27: error: sys/sysmacros.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: error: stdint.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file fenv.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: error: fenv.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function strtof exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android   -DCHECK_FUNCTION_EXISTS=strtof   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -DCHECK_FUNCTION_EXISTS=strtof -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android     -DCHECK_FUNCTION_EXISTS=strtof   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc --sysroot=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm -nostdlib -Bdynamic -Wl,-dynamic-linker,/system/bin/linker -Wl,--gc-sections -Wl,-z,nocopyreloc /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libc.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libm.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtbegin_dynamic.o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -o cmTryCompileExec -rdynamic -DCHECK_FUNCTION_EXISTS=strtof -Wl,--no-undefined -Wl,-rpath-link=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/interwork/libgcc.a /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtend_android.o
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x18): undefined reference to `strtof'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function _controlfp exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android   -DCHECK_FUNCTION_EXISTS=_controlfp   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -DCHECK_FUNCTION_EXISTS=_controlfp -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android     -DCHECK_FUNCTION_EXISTS=_controlfp   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc --sysroot=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm -nostdlib -Bdynamic -Wl,-dynamic-linker,/system/bin/linker -Wl,--gc-sections -Wl,-z,nocopyreloc /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libc.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libm.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtbegin_dynamic.o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -o cmTryCompileExec -rdynamic -DCHECK_FUNCTION_EXISTS=_controlfp -Wl,--no-undefined -Wl,-rpath-link=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/interwork/libgcc.a /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtend_android.o
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x18): undefined reference to `_controlfp'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the isnan exist failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:18: error: math.h: No such file or directory
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function 'main':
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: 'isnan' undeclared (first use in this function)
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef isnan
+  cmakeRequireSymbol(0,&isnan);
+#endif
+  return 0;
+}
+
+Determining if the function _isnan exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android   -DCHECK_FUNCTION_EXISTS=_isnan   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -DCHECK_FUNCTION_EXISTS=_isnan -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android     -DCHECK_FUNCTION_EXISTS=_isnan   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic 
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc --sysroot=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm -nostdlib -Bdynamic -Wl,-dynamic-linker,/system/bin/linker -Wl,--gc-sections -Wl,-z,nocopyreloc /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libc.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libm.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtbegin_dynamic.o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -o cmTryCompileExec -rdynamic -DCHECK_FUNCTION_EXISTS=_isnan -Wl,--no-undefined -Wl,-rpath-link=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/interwork/libgcc.a /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtend_android.o
+CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x18): undefined reference to `_isnan'
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: error: dlfcn.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android   -D_WIN32_WINNT=0x0500     -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -D_WIN32_WINNT=0x0500 -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: error: windows.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: error: pthread.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if files pthread.h;pthread_np.h exist failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: error: pthread.h: No such file or directory
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:24: error: pthread_np.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+#include <pthread_np.h>
+
+
+int main(){return 0;}
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android     -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthread 
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc --sysroot=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm -nostdlib -Bdynamic -Wl,-dynamic-linker,/system/bin/linker -Wl,--gc-sections -Wl,-z,nocopyreloc /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libc.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libm.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtbegin_dynamic.o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -o cmTryCompileExec -rdynamic -lpthread -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--no-undefined -Wl,-rpath-link=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/interwork/libgcc.a /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtend_android.o
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/bin/ld: cannot find -lpthread
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function pthread_setschedparam exists in the pthread failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android   -DCHECK_FUNCTION_EXISTS=pthread_setschedparam   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -DCHECK_FUNCTION_EXISTS=pthread_setschedparam -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android     -DCHECK_FUNCTION_EXISTS=pthread_setschedparam   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lpthread 
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc --sysroot=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm -nostdlib -Bdynamic -Wl,-dynamic-linker,/system/bin/linker -Wl,--gc-sections -Wl,-z,nocopyreloc /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libc.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libm.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtbegin_dynamic.o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -o cmTryCompileExec -rdynamic -lpthread -DCHECK_FUNCTION_EXISTS=pthread_setschedparam -Wl,--no-undefined -Wl,-rpath-link=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/interwork/libgcc.a /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtend_android.o
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/bin/ld: cannot find -lpthread
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android     -DCHECK_FUNCTION_EXISTS=clock_gettime   CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lrt 
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc --sysroot=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm -nostdlib -Bdynamic -Wl,-dynamic-linker,/system/bin/linker -Wl,--gc-sections -Wl,-z,nocopyreloc /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libc.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/libm.so /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtbegin_dynamic.o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o -o cmTryCompileExec -rdynamic -lrt -DCHECK_FUNCTION_EXISTS=clock_gettime -Wl,--no-undefined -Wl,-rpath-link=/home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib /home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/interwork/libgcc.a /home/onaips/Desktop/android-ndk-r4-crystax/build/platforms/android-4/arch-arm/usr/lib/crtend_android.o
+/home/onaips/Desktop/android-ndk-r4-crystax/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/bin/ld: cannot find -lrt
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: error: alsa/asoundlib.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/soundcard.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: error: sys/soundcard.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/audioio.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: error: sys/audioio.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file dsound.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: error: dsound.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file portaudio.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: error: portaudio.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file pulse/pulseaudio.h exists failed with the following output:
+Change Dir: /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:30: error: pulse/pulseaudio.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/Dropbox/projectos/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+

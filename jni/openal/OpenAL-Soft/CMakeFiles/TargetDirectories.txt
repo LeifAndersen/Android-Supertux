@@ -1,0 +1,2 @@
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/openal.dir
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/CMakeFiles/openal-info.dir

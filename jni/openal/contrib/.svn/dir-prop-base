@@ -1,0 +1,22 @@
+K 10
+svn:ignore
+V 255
+INSTALL
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache
+config.h
+config.h.in
+config.log
+config.status
+configure
+openal-contrib-*
+openal-contrib-*.shar.gz
+openal-contrib-*.tar.Z
+openal-contrib-*.tar.bz2
+openal-contrib-*.tar.gz
+openal-contrib-*.zip
+stamp-h1
+
+END

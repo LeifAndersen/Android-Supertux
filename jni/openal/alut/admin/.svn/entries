@@ -1,0 +1,80 @@
+10
+
+dir
+2239
+svn://connect.creativelabs.com/OpenAL/trunk/alut/admin
+svn://connect.creativelabs.com
+
+
+
+2006-11-24T08:47:11.385440Z
+1421
+svenp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+109fce75-3012-0410-ac6a-932efec96c1b
+
+VisualStudio6
+dir
+
+pkgconfig
+dir
+
+CMakeModules
+dir
+
+VisualStudioDotNET
+dir
+
+autotools
+dir
+
+Makefile.am
+file
+
+
+
+
+2010-08-08T12:55:39.925805Z
+3233f70d0e2351aeeccddf80a3c5e4de
+2005-12-15T15:46:56.000000Z
+849
+svenp
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21
+
+RPM
+dir
+

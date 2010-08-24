@@ -1,0 +1,12 @@
+--- OpenAL32/Include/alMain.h	(revision 1955) 
++++ OpenAL32/Include/alMain.h	(working copy) 
+@@ -243,6 +243,9 @@
+ void alc_pulse_init(BackendFuncs *func_list); 
+ void alc_pulse_deinit(void); 
+ void alc_pulse_probe(int type); 
++void alc_sdl_init(BackendFuncs *func_list); 
++void alc_sdl_deinit(void); 
++void alc_sdl_probe(int type); 
+  
+  
+ struct ALCdevice_struct 

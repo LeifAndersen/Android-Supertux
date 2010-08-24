@@ -1,0 +1,33 @@
+--- CMakeLists.txt	(revision 1955) 
++++ CMakeLists.txt	(working copy) 
+@@ -31,6 +31,7 @@
+ OPTION(WINMM   "Check for Windows Multimedia backend"  ON) 
+ OPTION(PORTAUDIO  "Check for PortAudio backend"        ON) 
+ OPTION(PULSEAUDIO "Check for PulseAudio backend"       ON) 
++OPTION(SDL     "Check for SDL backend"                 ON) 
+  
+ OPTION(DLOPEN  "Check for the dlopen API for loading optional libs"  ON) 
+  
+@@ -412,6 +413,22 @@
+     ENDIF() 
+ ENDIF() 
+  
++# Check SDL backend 
++IF(SDL) 
++    FIND_PACKAGE(SDL) 
++    IF(SDL_FOUND) 
++        SET(HAVE_SDL 1) 
++        SET(ALC_OBJS  ${ALC_OBJS} Alc/sdl.c) 
++        INCLUDE_DIRECTORIES(${SDL_INCLUDE_DIR}) 
++        IF(HAVE_DLFCN_H) 
++            SET(BACKENDS  "${BACKENDS} SDL,") 
++        ELSE() 
++            SET(BACKENDS  "${BACKENDS} SDL \(linked\),") 
++            SET(EXTRA_LIBS ${SDL_LIBRARY} ${EXTRA_LIBS}) 
++        ENDIF() 
++    ENDIF() 
++ENDIF() 
++ 
+ # This is always available 
+ SET(BACKENDS  "${BACKENDS} WaveFile")  
+ 

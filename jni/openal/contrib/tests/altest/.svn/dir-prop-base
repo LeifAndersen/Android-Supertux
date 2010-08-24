@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 61
+.deps
+Makefile
+Makefile.in
+README
+altest
+recording.wav
+*.exe
+
+END

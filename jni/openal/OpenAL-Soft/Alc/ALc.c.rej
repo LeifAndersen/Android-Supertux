@@ -1,0 +1,12 @@
+--- Alc/ALc.c	(revision 1955) 
++++ Alc/ALc.c	(working copy) 
+@@ -69,6 +69,9 @@
+ #ifdef HAVE_PULSEAUDIO 
+     { "pulse", alc_pulse_init, alc_pulse_deinit, alc_pulse_probe, EmptyFuncs }, 
+ #endif 
++#ifdef HAVE_SDL 
++    { "sdl", alc_sdl_init, alc_sdl_deinit, alc_sdl_probe, EmptyFuncs }, 
++#endif 
+  
+     { "wave", alc_wave_init, alc_wave_deinit, alc_wave_probe, EmptyFuncs }, 
+  

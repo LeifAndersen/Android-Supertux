@@ -1,0 +1,1 @@
+/home/onaips/physfs/gcc-android     CMakeFiles/test_physfs.dir/test/test_physfs.o  -o test_physfs -rdynamic libphysfs.so.2.0.0 -lz 

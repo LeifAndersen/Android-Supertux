@@ -1,0 +1,5 @@
+/home/onaips/physfs/CMakeFiles/dist.dir
+/home/onaips/physfs/CMakeFiles/physfs.dir
+/home/onaips/physfs/CMakeFiles/physfs-static.dir
+/home/onaips/physfs/CMakeFiles/test_physfs.dir
+/home/onaips/physfs/CMakeFiles/uninstall.dir

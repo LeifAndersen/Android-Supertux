@@ -1,0 +1,24 @@
+export ANDROID_NDK_ROOT="/home/onaips/Desktop/android-ndk-r4-crystax"
+export ANDROID_GCC_WRAPPERS="android-gcc"
+export PATH="$ANDROID_GCC_WRAPPERS:$ANDROID_NDK_ROOT/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/:$PATH"
+export CROSS_PREFIX="arm-eabi-"
+export SYSROOT="$ANDROID_NDK_ROOT/build/platforms/android-4/arch-arm"
+
+# The config is specified in $ANDROID_NDK_ROOT/build/toolchains/arm-eabi-4.2.1/setup.mk
+# and $ANDROID_NDK_ROOT/build/core/build-*.mk
+
+export MAKE="make"
+
+# Use android wrappers
+export CC="gcc-android"
+export CXX="g++-android"
+
+export LD="deliberatey-undefined-do-not-use-directly"
+export CPP="${CROSS_PREFIX}gcc -E"
+export AS="${CROSS_PREFIX}as"
+export OBJCOPY="${CROSS_PREFIX}objcopy"
+export OBJDUMP="${CROSS_PREFIX}objdump"
+export STRIP="${CROSS_PREFIX}strip"
+export RANLIB="${CROSS_PREFIX}ranlib"
+export CCLD="${CROSS_PREFIX}gcc"
+export AR="${CROSS_PREFIX}ar"

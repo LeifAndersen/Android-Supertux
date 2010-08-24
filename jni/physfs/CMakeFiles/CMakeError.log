@@ -1,0 +1,355 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: 
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: -c
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: 
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: -c
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/onaips/physfs/g++-android 
+Build flags: 
+Id flags: 
+
+The output was:
+2
+/home/onaips/physfs/g++-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/g++-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/onaips/physfs/g++-android 
+Build flags: 
+Id flags: -c
+
+The output was:
+2
+/home/onaips/physfs/g++-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/g++-android: line 175: syntax error: unexpected end of file
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/home/onaips/physfs/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/onaips/physfs/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o] Error 2
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: 
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: -c
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+2
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/onaips/physfs/g++-android 
+Build flags: 
+Id flags: 
+
+The output was:
+2
+/home/onaips/physfs/g++-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/g++-android: line 175: syntax error: unexpected end of file
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/onaips/physfs/g++-android 
+Build flags: 
+Id flags: -c
+
+The output was:
+2
+/home/onaips/physfs/g++-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/g++-android: line 175: syntax error: unexpected end of file
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/home/onaips/physfs/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/onaips/physfs/CMakeFiles/CMakeTmp/testCCompiler.c
+/home/onaips/physfs/gcc-android: line 172: unexpected EOF while looking for matching `"'
+/home/onaips/physfs/gcc-android: line 175: syntax error: unexpected end of file
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o] Error 2
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/onaips/physfs/gcc-android 
+Build flags: 
+Id flags: 
+
+The output was:
+4
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+/home/onaips/physfs/gcc-android: Link and compile in one step is not supported by this wrapper.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/onaips/physfs/g++-android 
+Build flags: 
+Id flags: 
+
+The output was:
+4
+/home/onaips/physfs/g++-android: line 25: -fno-exceptions: command not found
+/home/onaips/physfs/g++-android: Link and compile in one step is not supported by this wrapper.
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/home/onaips/physfs/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/physfs/gcc-android       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -o cmTryCompileExec -rdynamic
+Using built-in specs.
+Target: arm-eabi
+Configured with: /tmp/xsrc/build/../gcc/gcc-4.2.1/configure --prefix=/tmp/xndk/build/prebuilt/linux-x86/arm-eabi-4.2.1 --target=arm-eabi --host=x86_64-unknown-linux-gnu --build=x86_64-unknown-linux-gnu --enable-languages=c,c++ --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --with-abi=aapcs --disable-nls --prefix=/tmp/xndk/build/prebuilt/linux-x86/arm-eabi-4.2.1 --with-sysroot=/opt/digit/repo/froyo/ndk/build/platforms/android-3/arch-arm --with-binutils-version=2.19 --with-gcc-version=4.2.1 --with-gdb-version=6.6 --program-transform-name=s&^&arm-eabi-&
+Thread model: single
+gcc version 4.2.1
+ /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../libexec/gcc/arm-eabi/4.2.1/collect2 --sysroot=/opt/digit/repo/froyo/ndk/build/platforms/android-3/arch-arm -X -o cmTryCompileExec /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crti.o /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtbegin.o crt0.o -L/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1 -L/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc -L/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/lib CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtend.o /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtn.o
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/bin/ld: crt0.o: No such file: No such file or directory
+collect2: ld returned 1 exit status
+/home/onaips/physfs/gcc-android: Internal error: Uknown compiler mode.
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec] Error 3
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/home/onaips/physfs/g++-android     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+/home/onaips/physfs/g++-android: line 25: -fno-exceptions: command not found
+arm-eabi-g++ -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/onaips/physfs/g++-android        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+/home/onaips/physfs/g++-android: line 25: -fno-exceptions: command not found
+arm-eabi-g++ -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -o cmTryCompileExec -rdynamic
+Using built-in specs.
+Target: arm-eabi
+Configured with: /tmp/xsrc/build/../gcc/gcc-4.2.1/configure --prefix=/tmp/xndk/build/prebuilt/linux-x86/arm-eabi-4.2.1 --target=arm-eabi --host=x86_64-unknown-linux-gnu --build=x86_64-unknown-linux-gnu --enable-languages=c,c++ --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --with-abi=aapcs --disable-nls --prefix=/tmp/xndk/build/prebuilt/linux-x86/arm-eabi-4.2.1 --with-sysroot=/opt/digit/repo/froyo/ndk/build/platforms/android-3/arch-arm --with-binutils-version=2.19 --with-gcc-version=4.2.1 --with-gdb-version=6.6 --program-transform-name=s&^&arm-eabi-&
+Thread model: single
+gcc version 4.2.1
+ /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../libexec/gcc/arm-eabi/4.2.1/collect2 --sysroot=/opt/digit/repo/froyo/ndk/build/platforms/android-3/arch-arm -X -o cmTryCompileExec /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crti.o /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtbegin.o crt0.o -L/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1 -L/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc -L/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/lib CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm --start-group -lgcc -lc --end-group /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtend.o /home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/crtn.o
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/bin/ld: crt0.o: No such file: No such file or directory
+collect2: ld returned 1 exit status
+/home/onaips/physfs/g++-android: Internal error: Uknown compiler mode.
+make[1]: *** [cmTryCompileExec] Error 3
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/ucred.h exists failed with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/physfs/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: error: sys/ucred.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file mntent.h exists failed with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/physfs/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: error: mntent.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SYS_MNTTAB_H failed with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/src.c.o
+/home/onaips/physfs/gcc-android   -DHAVE_SYS_MNTTAB_H   -o CMakeFiles/cmTryCompileExec.dir/src.c.o   -c /home/onaips/physfs/CMakeFiles/CMakeTmp/src.c
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -DHAVE_SYS_MNTTAB_H -o CMakeFiles/cmTryCompileExec.dir/src.c.o -c /home/onaips/physfs/CMakeFiles/CMakeTmp/src.c
+In file included from /home/onaips/physfs/CMakeFiles/CMakeTmp/src.c:2:
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/stdio.h:50:23: error: sys/cdefs.h: No such file or directory
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/stdio.h:51:24: error: sys/_types.h: No such file or directory
+In file included from /home/onaips/physfs/CMakeFiles/CMakeTmp/src.c:2:
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/stdio.h:160: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'extern'
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/stdio.h:229: error: expected '=', ',', ';', 'asm' or '__attribute__' before '__BEGIN_DECLS'
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/stdio.h:377: error: expected '=', ',', ';', 'asm' or '__attribute__' before '__BEGIN_DECLS'
+/home/onaips/Desktop/android_dev/android-ndk-r4/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/include/stdio.h:388: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'static'
+/home/onaips/physfs/CMakeFiles/CMakeTmp/src.c:3:36: error: sys/mnttab.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/src.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+Source file was:
+
+            #include <stdio.h>
+            #include <sys/mnttab.h>
+            int main(int argc, char **argv) { return 0; }
+        
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/physfs/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: error: pthread.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file assert.h exists failed with the following output:
+Change Dir: /home/onaips/physfs/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/onaips/physfs/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/home/onaips/physfs/gcc-android    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/gcc-android: line 25: -fno-exceptions: command not found
+arm-eabi-gcc -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o -c /home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/onaips/physfs/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: error: assert.h: No such file or directory
+make[1]: Leaving directory `/home/onaips/physfs/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+

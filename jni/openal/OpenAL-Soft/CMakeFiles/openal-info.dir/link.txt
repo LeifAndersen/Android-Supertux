@@ -1,0 +1,1 @@
+/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft/gcc-android  -g -O2 -funroll-loops -D_DEBUG   CMakeFiles/openal-info.dir/utils/openal-info.o  -o openal-info -rdynamic libopenal.so.1.12 -lm -pthread -Wl,-rpath,/home/onaips/workspace/supertux2/jni/openal/OpenAL-Soft: 

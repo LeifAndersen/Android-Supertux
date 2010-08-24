@@ -1,0 +1,89 @@
+10
+
+dir
+2224
+svn://connect.creativelabs.com/OpenAL/trunk
+svn://connect.creativelabs.com
+
+
+
+2010-07-31T03:27:24.543500Z
+2224
+ChrisR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+109fce75-3012-0410-ac6a-932efec96c1b
+
+contrib
+dir
+
+include
+dir
+
+alut
+dir
+
+OpenAL-MacOSX
+dir
+
+OpenAL-Windows
+dir
+
+OpenAL-Soft
+dir
+
+demos
+dir
+
+docs
+dir
+
+OpenAL-Sample
+dir
+
+README
+file
+
+
+
+
+2010-08-01T20:10:33.609658Z
+6ae7ba7f9be247041901fd0518f9a45b
+2009-06-10T23:38:53.444237Z
+1694
+JasonD
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1613
+

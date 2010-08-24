@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 126
+.deps
+.libs
+Makefile
+Makefile.in
+test_errorstuff
+test_fileloader
+test_memoryloader
+test_retrostuff
+test_version
+test_waveforms
+END

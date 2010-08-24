@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 50
+config.guess
+config.sub
+depcomp
+install-sh
+missing
+END
