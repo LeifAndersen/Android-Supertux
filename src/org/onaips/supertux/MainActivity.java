@@ -283,7 +283,8 @@ public class MainActivity extends Activity {
 			intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			intent.putExtra(EXTRA_SEND_INTENT_ACTION, Intent.ACTION_SENDTO);
 			final String email = "onaips@gmail.com";
-			intent.putExtra(EXTRA_DATA, Uri.parse("mailto:" + email));
+			final String ccEmail = "leif@leifandersen.net";
+			intent.putExtra(EXTRA_DATA, Uri.parse("mailto:" + email + ", " + ccEmail));
 			intent.putExtra(EXTRA_ADDITIONAL_INFO,"Problem Description: \n\n\n\n---------DEBUG--------\n" + getString(R.string.device_info_fmt,getVersionNumber(getApplicationContext()),Build.MODEL,Build.VERSION.RELEASE, getFormattedKernelVersion(), Build.DISPLAY));
 
 			intent.putExtra(Intent.EXTRA_SUBJECT, "Supertux2: Debug Info");
